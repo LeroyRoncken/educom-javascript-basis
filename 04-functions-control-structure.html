@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <script>
+            const doSomething = (x, y) => {
+
+                const didSomething = {
+                    msg: `We did something with X: ${x} and Y: ${y}`,
+                    resultX: x * 4,
+                    resultY: y * 2
+                }
+                return(didSomething)
+            
+            }
+
+            let count = 5
+            let apples = 2
+            let pears = 3
+
+            let result = doSomething(count,apples)
+            console.log(result)
+            let resultpears = doSomething(count,pears)
+            console.log(resultpears)
+
+        </script>
+    </head>
+</html>
